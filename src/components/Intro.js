@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCat, faYinYang, faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faCat, faYinYang, faUserSecret, faPalette } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons' 
 import { Link } from "react-router-dom";
 
@@ -31,6 +31,7 @@ const Intro = () => {
             <Link to="https://www.instagram.com/iragaki/"><FontAwesomeIcon className='my-ig' icon={faInstagram} /></Link>
             <Link to="https://github.com/Iragakii"><FontAwesomeIcon className='my-git' icon={faGithub} /></Link>
             <Link to="https://steamcommunity.com/id/mandababababa"><FontAwesomeIcon className='my-steam' icon={faUserSecret} /></Link>
+            <Link to="https://opensea.io/iragaki"><FontAwesomeIcon className='my-sea' icon={faPalette} /></Link>
             </div>
             <div className='under'>
             <div className='dash-3'></div>

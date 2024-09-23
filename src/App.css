@@ -1,11 +1,11 @@
 canvas {
-  height: 50vh;
-  width: 100vw;
+  height: 50vh; 
+  width: 50vh;
 }
 .intro{
   display:grid;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 100px; 
   padding-left: 300px;
 }
 .my-name {
@@ -55,6 +55,8 @@ canvas {
 }
 .hint{
   color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 .dash-2{
   margin-top: 20px;
@@ -76,6 +78,10 @@ canvas {
   border: 1px solid;
   font-weight: bold;
   border-radius: 7px;
+  cursor: pointer;
+}
+.cv:hover{
+  color: white;
 }
 .dash-y{
   margin: 0 15px 0 15px;
@@ -115,8 +121,133 @@ canvas {
 .my-steam:hover{
   color: white;
 }
+.my-sea{
+  margin-right: 15px;
+  color: #a0a0a0;
+  cursor: pointer;
+  
+}
+.my-sea:hover{
+  color: white;
+}
 .dash-3{
   margin-top: 20px;
   border: 0.5px solid #282828;
   width: 80px;
+}
+.box{
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 300px;
+}
+.dash-x{
+  margin-top: 50px;
+  border: 0.5px solid #282828;
+  width: 180px;
+  margin-bottom: 20px;
+}
+.project{
+  display: flex;
+}
+.duan {
+  color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.hat{
+  margin: 0 15px 0 15px;
+  color:#a0a0a0;
+}
+.text-box{
+  margin: 20px 50px 100px 50px;
+}
+.jetking{
+  color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.poem {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dash-5{
+  margin: 0 15px 0 15px;
+  border: 2px solid #cbcbcb;
+  height: 18px;
+}
+.poem-text{
+  color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.jcsec{
+  color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.show{
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 300px;
+}
+.dash-6{
+  border: 0.5px solid #282828;
+  width: 180px;
+  margin-bottom: 20px;
+}
+.project{
+  display: flex;
+}
+.mask{
+  margin: 0 15px 0 15px;
+  color: #a0a0a0;
+}
+.loading {
+  color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.nike{
+  margin-left: 20px;
+  margin-right: 15px;
+  color: greenyellow;
+  cursor: pointer;
+  
+}
+.nike:hover{
+  color: white;
+}
+.dress{
+  margin-right: 15px;
+  color: royalblue;
+  cursor: pointer;
+  
+}
+.dress:hover{
+  color: white;
+}
+.fume{
+  margin-right: 15px;
+  color: orange;
+  cursor: pointer;
+  
+}
+.fume:hover{
+  color: white;
+}
+.nike{
+  margin-left: 20px;
+  margin-right: 15px;
+  color: greenyellow;
+  cursor: pointer;
+  
+}
+.nike:hover{
+  color: white;
+}
+.bot{
+  margin-right: 15px;
+  color: yellow;
+  cursor: pointer;
+  
+}
+.bot:hover{
+  color: white;
 }

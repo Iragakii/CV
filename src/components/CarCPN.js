@@ -30,13 +30,13 @@ const CarCPN = () => {
        <Environment preset='studio'></Environment>
         {/* Light with shadows */}
       <spotLight
-        position={[10, 10, 10]}
-        angle={0.15}
+        pposition={[10, 10, 10]}
+        angle={0.3}
         penumbra={1}
         castShadow
-        shadow-mapSize-width={1000}
-        shadow-mapSize-height={1000}
-        shadow-bias={-0.0001} 
+        shadow-mapSize-width={600}   // Refined shadow map size
+        shadow-mapSize-height={1024}
+        shadow-bias={-0.0005} 
       />
       <ambientLight intensity={0.5} />
         <OrbitControls enableZoom={false} ref={controlsRef}  enablePan={false} ></OrbitControls>
