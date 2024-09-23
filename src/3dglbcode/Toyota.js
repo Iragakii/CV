@@ -1,5 +1,5 @@
 
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 
 
@@ -7,7 +7,17 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 export function Toyota(props) {
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('/toyota_chaser_tourerv.glb')
-  const { actions } = useAnimations(animations, group)
+  const { actions, names } = useAnimations(animations, group)
+  const [animationPlaying, setAnimationPlaying] = useState(false);
+
+  useEffect(() => {
+    // Play the first animation by default when the component mounts
+    if (actions && names.length > 0 && !animationPlaying) {
+      actions[names[0]].play(); // Plays the first animation in the file
+      setAnimationPlaying(true);
+    }
+  }, [actions, names, animationPlaying]);
+  
 
 
   return (

@@ -1,4 +1,20 @@
-.orbit {
-  height: 100vh;
+canvas {
+  height: 70vh;
   width: 100vw;
+}
+.intro{
+  display:grid;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 300px;
+}
+.my-name {
+  margin-bottom: 8px;
+  color: #ededed;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+.my-job{
+  color: #a0a0a0;
 }
