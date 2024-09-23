@@ -1,5 +1,5 @@
 canvas {
-  height: 70vh;
+  height: 50vh;
   width: 100vw;
 }
 .intro{
@@ -17,4 +17,106 @@ canvas {
 }
 .my-job{
   color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dash {
+  margin-top: 20px;
+  border: 0.5px solid #282828;
+  width: 180px;
+}
+.detail-self{
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 300px;
+}
+.detail-intro{
+  color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.info-cattery{
+  margin-top: 20px;
+}
+.fb-icon{
+  background-color: #282828;
+  border: 1px solid;
+  color: green;
+  border-radius: 5px;
+  margin-right: 9px;
+  cursor: pointer;
+}
+.tik-icon{
+  background-color: #282828;
+  border: 1px solid;
+  color: yellowgreen;
+  border-radius: 5px;
+  margin-right: 9px;
+  cursor: pointer;
+}
+.hint{
+  color: #a0a0a0;
+}
+.dash-2{
+  margin-top: 20px;
+  border: 0.5px solid #282828;
+  width: 120px;
+}
+.contact{
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 300px;
+}
+.top{
+  display: flex;
+}
+.cv{
+  background-color: #282828;
+  color: #a0a0a0;
+  border: 1px solid;
+  font-weight: bold;
+  border-radius: 7px;
+}
+.dash-y{
+  margin: 0 15px 0 15px;
+  border: 0.5px solid #282828;
+  height: 20px;
+}
+.my-fb{
+  margin-right: 15px;
+  color: #a0a0a0;
+  cursor: pointer;
+}
+.my-fb:hover{
+  color: white;
+}
+.my-ig{
+  margin-right: 15px;
+  color: #a0a0a0;
+  cursor: pointer;
+}
+.my-ig:hover{
+  color: white;
+}
+.my-git{
+  margin-right: 15px;
+  color: #a0a0a0;
+  cursor: pointer;
+}
+.my-git:hover{
+  color: white;
+}
+.my-steam{
+  margin-right: 15px;
+  color: #a0a0a0;
+  cursor: pointer;
+  
+}
+.my-steam:hover{
+  color: white;
+}
+.dash-3{
+  margin-top: 20px;
+  border: 0.5px solid #282828;
+  width: 80px;
 }

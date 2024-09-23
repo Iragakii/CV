@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { ContactShadows, Environment, OrbitControls } from '@react-three/drei'
+import {  Environment, OrbitControls } from '@react-three/drei'
 import { Toyota } from '../3dglbcode/Toyota'
 import { useFrame } from '@react-three/fiber'
 
@@ -41,7 +41,7 @@ const CarCPN = () => {
       <ambientLight intensity={0.5} />
         <OrbitControls enableZoom={false} ref={controlsRef}  enablePan={false} ></OrbitControls>
        
-        <Toyota position={[0 , 0, 0]} scale={[0.4, 0.4, 0.4]}></Toyota>
+        <Toyota position={[0 , 0, 0]} scale={[1, 1, 1]}></Toyota>
         {/* Ground */}
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]} receiveShadow>
         <planeGeometry args={[50, 50]} />
