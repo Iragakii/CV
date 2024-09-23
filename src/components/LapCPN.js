@@ -29,15 +29,6 @@ const LapCPN = () => {
     <>
        <Environment preset='studio'></Environment>
         {/* Light with shadows */}
-      <spotLight
-        position={[10, 10, 10]}
-        angle={0.15}
-        penumbra={1}
-        castShadow
-        shadow-mapSize-width={900}
-        shadow-mapSize-height={400}
-        shadow-bias={-0.0001} 
-      />
       <ambientLight intensity={0.5} />
         <OrbitControls enableZoom={false} ref={controlsRef}  enablePan={false} ></OrbitControls>
        

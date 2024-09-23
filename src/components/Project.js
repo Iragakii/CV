@@ -15,8 +15,9 @@ const Project = () => {
                 <Link to="#"><FontAwesomeIcon className='nike' icon={faShoePrints} /></Link>
                 <Link to="#"><FontAwesomeIcon className='dress' icon={faVestPatches} /></Link>
                 <Link to="#"><FontAwesomeIcon className='fume' icon={faShopify} /></Link>
-                <Link to="https://github.com/Iragakii/isupport/blob/master/isup.py"><FontAwesomeIcon className='bot' icon={faAndroid} /></Link>
+                <Link to="https://github.com/Iragakii/isupport/blob/master/isup.py"><FontAwesomeIcon className='bot ' icon={faAndroid} /></Link>
             </div>
+            <div className='dash-7'></div>
 
 
         </div>

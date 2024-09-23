@@ -251,3 +251,28 @@ canvas {
 .bot:hover{
   color: white;
 }
+.dash-7{
+  border: 0.5px solid #282828;
+  width: 150px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.loading-cer{
+  margin: auto;
+  padding-left: 300px;
+  margin-bottom: 50px;
+}
+.goal{
+  color: #a0a0a0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cs50 img{
+  width: 50%;
+}
+.cer50 {
+  width: 100%;
+}
+.lang{
+  margin: 0 15px 0 15px;
+  color: #a0a0a0;
+}

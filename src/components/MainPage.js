@@ -5,6 +5,7 @@ import Intro from './Intro'
 import LapCPN from './LapCPN'
 import Mind from './Mind'
 import Project from './Project'
+import Cer from './Cer'
 
 
 
@@ -21,6 +22,7 @@ const MainPage = () => {
         <LapCPN></LapCPN>
       </Canvas>
       <Project></Project>
+      <Cer></Cer>
     </>
   )
 }
