@@ -6,6 +6,7 @@ import LapCPN from './LapCPN'
 import Mind from './Mind'
 import Project from './Project'
 import Cer from './Cer'
+import Last from './Last'
 
 
 
@@ -13,7 +14,7 @@ const MainPage = () => {
 
   return (
     <>
-      <Intro></Intro>
+      <Intro/>
       <Canvas  shadows camera={{ position: [5, 5, 5], fov: 50 }}>
         <CarCPN></CarCPN>
       </Canvas>
@@ -23,6 +24,7 @@ const MainPage = () => {
       </Canvas>
       <Project></Project>
       <Cer></Cer>
+      <Last></Last>
     </>
   )
 }
