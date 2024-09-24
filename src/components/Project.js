@@ -12,8 +12,8 @@ const Project = () => {
             <div className='project'>
                 <FontAwesomeIcon className='mask' icon={faMasksTheater} />
                 <span className='loading'>Một số dự án được thực hiện bợi mình still loading ...</span>
-                <Link to="#"><FontAwesomeIcon className='nike' icon={faShoePrints} /></Link>
-                <Link to="#"><FontAwesomeIcon className='dress' icon={faVestPatches} /></Link>
+                <Link to="https://www.youtube.com/watch?v=jpTZjOdFgxE&t=1s"><FontAwesomeIcon className='nike' icon={faShoePrints} /></Link>
+                <Link to="https://www.youtube.com/watch?v=dOYWZTzvtb8&t=5s"><FontAwesomeIcon className='dress' icon={faVestPatches} /></Link>
                 <Link to="#"><FontAwesomeIcon className='fume' icon={faShopify} /></Link>
                 <Link to="https://github.com/Iragakii/isupport/blob/master/isup.py"><FontAwesomeIcon className='bot ' icon={faAndroid} /></Link>
             </div>

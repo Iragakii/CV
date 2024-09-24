@@ -25,7 +25,7 @@ const Intro = () => {
        </div>
        <div className='contact'>
             <div className='top'>
-            <Link to="#"><button className='cv'>My CV</button></Link>
+            <Link to="https://www.topcv.vn/xem-cv/UlIBUAFRXFwDBVZSCgQABwEBAgVRAAdSVAFTDg2076"><button className='cv'>My CV</button></Link>
             <div className='dash-y'></div>  
             <Link to="https://www.facebook.com/van.hokhoi.585?mibextid=ZbWKwL"><FontAwesomeIcon className='my-fb' icon={faFacebookF} /></Link>
             <Link to="https://www.instagram.com/iragaki/"><FontAwesomeIcon className='my-ig' icon={faInstagram} /></Link>
